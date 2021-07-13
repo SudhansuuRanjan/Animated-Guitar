@@ -1,0 +1,117 @@
+
+body{
+        width: 100%;
+       display: flex;
+        height:100vh;
+        background-color:#F3AC3C;
+    }
+    .guitar-butt{
+        width:160px;
+        height:20px;
+        position:relative;
+        top:40%;
+        background-color: #1A4341;
+        border-radius: 0;
+        left:650px;
+        transform: rotate(-90deg);
+        animation-name: rainbow;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes  rainbow{
+    0% {
+    transform: rotate(-120deg);
+    }
+    25% {
+     transform: rotate(-90deg);
+    }
+    50% {
+       transform: rotate(-60deg);
+    }
+    75% {
+     transform: rotate(-90deg);
+    }
+    100% {
+     transform: rotate(-120deg);
+    }
+}
+    .handle-hand{
+        width:40px;
+        height:30px;
+        position: relative;
+        top:-5px;
+        background-color: #998235;
+        border-radius: 9px;
+        animation: emoji 5s infinite linear;
+        left:150px;
+ }
+    .string-attach1{
+        width:20px;
+        height:4px;
+        position: relative;
+        top:8px;
+        background-color:#1A4341;
+        border-radius: 9px;
+        animation: emoji 5s infinite linear;
+        left:10px;
+    }
+    .string-attach2{
+        width:20px;
+        height:4px;
+        position: relative;
+        top:14px;
+        background-color: #1A4341;
+        border-radius: 9px;
+        animation: emoji 5s infinite linear;
+        left:10px;
+    }
+    .circle1{
+        width:180px;
+        height:180px;
+        position: relative;
+        top:-77px;
+        background-color: #998235;
+        border-radius: 50%;
+        animation: emoji 5s infinite linear;
+        left:-400px;
+    }
+    .circle2{
+        width:120px;
+        height:120px;
+        top:-232px;
+        position: relative;
+        background-color: #998235;
+        border-radius: 50%;
+        animation: emoji 5s infinite linear;
+        left:-260px;
+    }
+    .string-attach{
+        width:12px;
+        height:50px;
+        position: relative;
+        top:65px;
+        background-color:#1A4341;
+        border-radius: 9px;
+        animation: emoji 5s infinite linear;
+        left:50px;
+    }
+    .invisible{
+        width:60px;
+        height:60px;
+        top:-320px;
+        position: relative;
+        background-color: #F3AC3C;
+        border-radius: 50%;
+        animation: emoji 5s infinite linear;
+        left:-230px;
+    }
+    .visible{
+        width:50px;
+        height:50px;
+        top:5px;
+        position: relative;
+        background-color:#1A4341;
+        border-radius: 50%;
+        animation: emoji 5s infinite linear;
+        left:5px;
+}
